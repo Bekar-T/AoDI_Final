@@ -1,0 +1,70 @@
+:root {
+    --themeColor: #05BCCA;
+    --bgColor: #012426;
+    --fontFam: Inter;
+}
+
+body{
+    background-color: var(--bgColor);
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+/* header */
+
+header{
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_icon{
+    display: none;
+}
+
+header > nav > ul{
+    display: flex;
+    column-gap: 72px;
+}
+
+nav > ul > li > a{
+    color: #A1C3C9;
+    font-family: var(--fontFam);
+    font-size: 24px;
+}
+
+header > div{
+    display: flex;
+    width: 20%;
+    column-gap: 32px;
+    justify-content: center;
+}
+
+.header_ico_1 > a{
+    font-size: 30px;
+    color: var(--themeColor);
+}
+
+.header_ico_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.header_ico_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: var(--themeColor);
+}
