@@ -1,0 +1,10 @@
+/* 768-1024 */
+@media (max-width: 1025px) {
+    nav{
+        display: none;
+    }
+
+    #menu_button{
+        display: block;
+    }
+}

@@ -4,11 +4,11 @@
     --fontFam: Inter;
 }
 
-body{
+body {
     background-color: var(--bgColor);
 }
 
-.container{
+.container {
     max-width: 1440px;
     width: 100%;
     margin: auto;
@@ -16,55 +16,76 @@ body{
 
 /* header */
 
-header{
+header {
     height: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 36px;
 }
 
-.menu_icon{
+#menu_button {
     display: none;
+    height: 40px;
+    width: 40px;
+    font-size: 32px;
+    border: none;
+    background-color: transparent;
+    color: var(--themeColor);
 }
 
-header > nav > ul{
+header>nav>ul {
     display: flex;
     column-gap: 72px;
 }
 
-nav > ul > li > a{
+nav>ul>li>a {
     color: #A1C3C9;
     font-family: var(--fontFam);
     font-size: 24px;
 }
 
-header > div{
+header>div {
     display: flex;
     width: 20%;
     column-gap: 32px;
     justify-content: center;
 }
 
-.header_ico_1 > a{
-    font-size: 30px;
+#search_button {
+    height: 40px;
+    width: 40px;
     color: var(--themeColor);
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
 }
 
-.header_ico_1 {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 40px;
+#user_button {
     height: 40px;
-    font-size: 30px;
-}
-
-.header_ico_2 {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
     width: 40px;
-    height: 40px;
-    font-size: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
     background-color: var(--themeColor);
+}
+
+#cart_button {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    color: var(--themeColor);
+    border: 2px solid var(--themeColor);
+    background-color: transparent;
+}
+
+/* section 1 */
+
+#banner {
+    width: 100%;
+    height: 480px;
+    background-image: url(../images/banner.jpeg);
+    background-position: center;
+    background-size: cover;
 }
