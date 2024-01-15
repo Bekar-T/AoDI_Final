@@ -1,2 +1,60 @@
 /* 320-768 */
-@media (max-width: 480px) {}
+@media (max-width: 540px) {
+    header {
+        padding: 0 8px;
+    }
+
+    #logo>img {
+        height: 40px;
+        width: 40px;
+    }
+
+    #header_buttons {
+        column-gap: 16px;
+    }
+
+    #header_buttons>button {
+        height: 32px;
+        width: 32px;
+    }
+
+    #search_button {
+        font-size: 20px;
+    }
+
+    #user_button {
+        font-size: 15px;
+    }
+
+    #cart_button {
+        font-size: 15px;
+    }
+
+    /* section 1 */
+
+    #banner {
+        height: 400px;
+    }
+
+    #banner_link{
+        margin-top: 32px;
+    }
+
+    #banner_link > h2{
+        font-size: 24px;
+    }
+
+    /* section 2 */
+
+    #section_2{
+        height: 400px;
+    }
+
+    #grid_container {
+        grid-template-rows: repeat(2, 160px);
+    }
+
+    #grid_container > div > h3{
+        font-size: 16px;
+    }
+}
