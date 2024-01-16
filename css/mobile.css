@@ -82,4 +82,21 @@
     #subscribe_box > input{
         width: 200px;
     }
+
+    /* footer */
+
+    footer{
+        height: auto;
+        padding: 32px 0;
+    }
+
+    footer>div {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .footer_div {
+        align-items: center;
+    }
 }
