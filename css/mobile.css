@@ -68,4 +68,18 @@
     #section_3 > h3{
         font-size: 24px;
     }
+
+    /* section 4 */
+
+    #section_4{
+        height: 168px;
+    }
+
+    #section_4 > h2{
+        font-size: 24px;
+    }
+
+    #subscribe_box > input{
+        width: 200px;
+    }
 }

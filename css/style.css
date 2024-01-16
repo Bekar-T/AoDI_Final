@@ -230,3 +230,59 @@ nav>ul>li>a {
     font-family: var(--fontFam);
     font-size: 12px;
 }
+
+/* section 4 */
+
+#section_4{
+    width: 100%;
+    height: 320px;
+    background-image: url(../images/form_cover.png);
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+#section_4 > h2{
+    color: var(--themeColor);
+    font-family: var(--fontFam);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#subscribe_box{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #F5F5F5;
+}
+
+#subscribe_box > input{
+    height: 48px;
+    width: 360px;
+    border: none;
+    background: rgba(44, 66, 70, 0.80);
+    font-size: 16px;
+    color: #FFF;
+}
+
+#subscribe_box > input::placeholder{
+    color: #A1C3C9;
+    font-family: var(--fontFam);
+    font-size: 16px;
+}
+
+#subscribe_box > button{
+    height: 48px;
+    width: 120px;
+    border: none;
+    background-color: var(--themeColor);
+    color: #FFF;
+    font-family: var(--fontFam);
+    font-size: 16px;
+    font-weight: 700;
+}
+
