@@ -578,6 +578,7 @@ footer>span {
     height: 215px;
     display: flex;
     flex-direction: column;
+    row-gap: 16px;
 }
 
 #contact_form>div{
@@ -587,10 +588,38 @@ footer>span {
 }
 
 #contact_form>div>input{
+    background-color: #2C4246;
     border: none;
     padding: 0;
     width: 140px;
     height: 32px;
+}
+
+#contact_form>div>input::placeholder{
+    color: #A1C3C9;
+    font-family: var(--fontFam);
+    font-size: 12px;
+    padding: 8px;
+}
+
+#contact_form>textarea{
+    height: 110px;
+    background-color: #2C4246;
+    border: none;
+    resize: none;
+}
+
+#contact_form>textarea::placeholder{
+    color: #A1C3C9;
+    font-family: var(--fontFam);
+    font-size: 12px;
+    padding: 8px;
+}
+
+#contact_form>button{
+    height: 40px;
+    background-color: #C46A2B;
+    border: none;
 }
 
 #map{
