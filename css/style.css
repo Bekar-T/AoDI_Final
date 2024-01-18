@@ -17,11 +17,16 @@ body {
 /* header */
 
 header {
+    position: sticky;
+    top: 0;
+    left: 0;
     height: 96px;
+    background-color: #012426;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 32px;
+    border-bottom: 2px solid var(--themeColor);
 }
 
 #menu_button {
@@ -43,6 +48,11 @@ nav>ul>li>a {
     color: #A1C3C9;
     font-family: var(--fontFam);
     font-size: 24px;
+}
+
+nav li:hover a {
+    text-shadow: 0 0 5px #05BCCA;
+    text-shadow: 0 0 5px #05BCCA;
 }
 
 #header_buttons {
