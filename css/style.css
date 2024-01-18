@@ -86,6 +86,7 @@ nav>ul>li>a {
     height: 480px;
     background-image: url(../images/banner.jpeg);
     background-position: center;
+    background-size: cover;
     justify-content: center;
     align-items: flex-start;
 }
@@ -189,6 +190,7 @@ nav>ul>li>a {
 }
 
 #card_box {
+    width: 100%;
     display: flex;
     column-gap: 20px;
     overflow: auto;
@@ -279,6 +281,7 @@ nav>ul>li>a {
 }
 
 #subscribe_box>input::placeholder {
+    padding: 8px;
     color: #A1C3C9;
     font-family: var(--fontFam);
     font-size: 16px;
@@ -411,6 +414,7 @@ footer>span {
 
 #catalog_bottom_inner{
     max-height: 2112px;
+    width: 1252px;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
@@ -620,6 +624,9 @@ footer>span {
     height: 40px;
     background-color: #C46A2B;
     border: none;
+    color: #FFF;
+    font-family: var(--fontFam);
+    font-size: 16px;
 }
 
 #map{
