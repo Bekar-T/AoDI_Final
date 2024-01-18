@@ -100,3 +100,48 @@
         align-items: center;
     }
 }
+
+@media (max-width: 650px) {
+    #catalog_top > button{
+        height: 40px;
+        font-size: 16px;
+        padding: 13px;
+    }
+
+    #catalog_list_top_left > span {
+        display: none;
+    }
+
+    #catalog_list_top_right>button{
+        width: fit-content;
+    }
+
+    #catalog_list_top_right>button>span{
+        display: none;
+    }
+
+    #catalog_bottom{
+        padding: 32px 0;
+    }
+
+    #catalog_bottom_inner{
+        width: 343px;
+    }
+
+    .catalog_card{
+        width: 343px;
+    }
+
+    .catalog_card > img{
+        width: 100%;
+        height: 298px;
+    }
+
+    #catalog_list_bottom > button{
+        padding: 8px 14px;
+    }
+
+    #catalog_list_bottom > button > span{
+        display: none;
+    }
+}

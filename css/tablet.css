@@ -8,3 +8,9 @@
         display: block;
     }
 }
+
+@media (max-width: 980px) {
+    #catalog_bottom_inner{
+        width: 616px;
+    }
+}
