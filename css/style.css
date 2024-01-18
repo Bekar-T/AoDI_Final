@@ -39,6 +39,11 @@ header {
     color: var(--themeColor);
 }
 
+#menu_button:hover {
+    text-shadow: 0 0 5px #05BCCA;
+    text-shadow: 0 0 5px #05BCCA;
+}
+
 header>nav>ul {
     display: flex;
     column-gap: 72px;
