@@ -39,17 +39,17 @@
         height: 400px;
     }
 
-    #banner_link{
+    #banner_link {
         margin-top: 32px;
     }
 
-    #banner_link > h2{
+    #banner_link>h2 {
         font-size: 24px;
     }
 
     /* section 2 */
 
-    #section_2{
+    #section_2 {
         height: 400px;
     }
 
@@ -57,38 +57,38 @@
         grid-template-rows: repeat(2, 160px);
     }
 
-    #grid_container > div > h3{
+    #grid_container>div>h3 {
         font-size: 16px;
     }
 
     /* section 3 */
 
-    #section_3{
+    #section_3 {
         height: 544px;
         padding: 32px 0 32px 8px;
     }
 
-    #section_3 > h3{
+    #section_3>h3 {
         font-size: 24px;
     }
 
     /* section 4 */
 
-    #section_4{
+    #section_4 {
         height: 168px;
     }
 
-    #section_4 > h2{
+    #section_4>h2 {
         font-size: 24px;
     }
 
-    #subscribe_box > input{
+    #subscribe_box>input {
         width: 200px;
     }
 
     /* footer */
 
-    footer{
+    footer {
         height: auto;
         padding: 32px 0;
     }
@@ -107,78 +107,78 @@
 @media (max-width: 650px) {
     /* catalog */
 
-    #catalog_top > button{
+    #catalog_top>button {
         height: 40px;
         font-size: 16px;
         padding: 13px;
     }
 
-    #catalog_list_top_left > span {
+    #catalog_list_top_left>span {
         display: none;
     }
 
-    #catalog_list_top_right>button{
+    #catalog_list_top_right>button {
         width: fit-content;
     }
 
-    #catalog_list_top_right>button>span{
+    #catalog_list_top_right>button>span {
         display: none;
     }
 
-    #catalog_bottom{
+    #catalog_bottom {
         padding: 32px 0;
     }
 
-    #catalog_bottom_inner{
+    #catalog_bottom_inner {
         width: 343px;
     }
 
-    .catalog_card{
+    .catalog_card {
         width: 343px;
     }
 
-    .catalog_card > img{
+    .catalog_card>img {
         width: 100%;
         height: 298px;
     }
 
-    #catalog_list_bottom > button{
+    #catalog_list_bottom>button {
         padding: 8px 14px;
     }
 
-    #catalog_list_bottom > button > span{
+    #catalog_list_bottom>button>span {
         display: none;
     }
 
     /* contact */
 
-    #contact{
+    #contact {
         height: auto;
         justify-content: center;
         align-items: center;
         padding: 32px 0;
     }
 
-    #contact_inner{
+    #contact_inner {
         width: 290px;
         justify-content: center;
         align-items: center;
     }
 
-    #contact_inner>h3{
+    #contact_inner>h3 {
         font-size: 16px;
     }
-    
-    #contact_1{
+
+    #contact_1 {
         width: 290px;
         height: auto;
     }
 
-    #contact_1>a{
+    #contact_1>a {
         display: none;
     }
 
-    #contact_1>div{
+    #contact_1>div {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -186,26 +186,26 @@
         column-gap: 24px;
     }
 
-    #contact_1>div>a{
+    #contact_1>div>a {
         font-size: 24px;
     }
 
-    #contact_1>div>a:last-child{
+    #contact_1>div>a:last-child {
         display: inline-block;
     }
 
-    #contact_1>div>a>span{
+    #contact_1>div>a>span {
         display: none;
     }
 
-    #contact_2{
+    #contact_2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 40px;
     }
 
-    #map{
+    #map {
         align-items: center;
     }
 }
